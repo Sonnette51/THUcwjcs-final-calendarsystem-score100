@@ -1,0 +1,5 @@
+a = list(map(int, input().split()))
+a.remove(min(a))
+a.remove(max(a))
+average = sum(a) / len(a)
+print(round(average))
